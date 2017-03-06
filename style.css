@@ -1,0 +1,39 @@
+/* Abigail's Zen Garden Site */
+
+
+/* Color Palette */
+
+/* Layout */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Footer Nav */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer a {
+    background-color: crimson; 
+    display: inline;
+    padding: 1em;
+}
+
+/* First Frame */
+
+footer a {
+    text-indent: -2500px;
+    transition: text-indent 1s;
+}
+
+/* Last Frame */
+
+footer:hover a {
+    text-indent: 0;
+    transition: text-indent 1s;
+}
